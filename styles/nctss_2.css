@@ -1,0 +1,54 @@
+.container{
+    margin: 60px 80px 60px 80px
+}
+.main{
+background-image: url(../assets/image/Media/Image1.png);
+background-position: center;
+height: 50vh;
+width: auto;
+padding: 5px;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.menu{
+    list-style-type: none;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.nospace{
+    color: rgb(0, 115, 182);
+    font-size: 125px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 100px;
+}
+.sub{
+    text-align: center;
+    height:auto;
+    width: auto;
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(0, 115, 182);
+    margin: 0;
+    padding: 1%;
+}
+.logo{
+    position: absolute;
+    right: 300px;
+    top: 675px;
+    max-width: auto;
+    height: 15%;
+}
+.texto{
+    width: 1000px;
+    height: 1000px;
+    position: absolute;
+    top: 1350px;;
+    bottom: 0;
+    left: 0;
+    right: 0;   
+    margin: auto; 
+    font-size: x-large;
+}
