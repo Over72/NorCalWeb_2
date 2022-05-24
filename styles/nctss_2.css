@@ -26,6 +26,9 @@
     font-weight: bold;
     display: block;
     padding: 15px 50px;
+    color: white;
+    border: 2px solid;
+    border-color: rgb(4 70 108);
         
 }
 .about{
@@ -39,7 +42,9 @@
     font-weight: bold;
     display: block;
     padding: 15px 50px;
-    
+    color: white;
+    border: 2px solid;
+    border-color: rgb(4 70 108);
 }
 .contact{
     float: right;
@@ -52,6 +57,9 @@
     font-weight: bold;
     display: block;
     padding: 15px 50px;
+    color: white;
+    border: 2px solid;
+    border-color: rgb(4 70 108);
 }
 .nospace{
     color: rgb(0, 0, 0);
