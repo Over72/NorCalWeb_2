@@ -129,23 +129,22 @@ a:visited {
     width: fit-content;
     flex-direction: row;
     flex-wrap: nowrap;
-    align-content: stretch;
-    align-items: baseline;
-    position: relative;
-    float: right;
-    margin-top: -730px;
-    padding: 0;
     font-weight: bold;
     column-gap: 50px;
   }
   
-  .navigation a {
+.navigation a {
     text-decoration: none;
     display: inline-block;
     padding: 1em;
     color: white;
 }
-  .navigation > li{
+.navigation > li{
       background-color: rgb(0, 115, 182);
       border: 2px solid;
-  }
+}
+.flex-container{
+    position: absolute;
+    top: 80px;
+    right: 95px;
+}
