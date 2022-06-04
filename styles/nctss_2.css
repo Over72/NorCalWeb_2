@@ -13,14 +13,35 @@
 }
 .active{
     background-color: rgb(18, 216, 0);
-    
+   
 }
+.nav {
+    position: absolute;
+    top: 2%;
+    right: 10%;
+    font-size: 50px;
+    margin: 50px;
+}
+.notselected {
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid black;
+}
+a{
+text-decoration:none
+}
+a:visited {
+    color: rgb(255, 255, 255);
+  }
 .home{
     float: right;
     margin-top: -750px;
     margin-right: 625px;
     list-style-type: none;
-    background-color: rgb(0, 115, 182);
     font-size: 40px;
     text-decoration: none;
     font-weight: bold;
@@ -36,7 +57,6 @@
     margin-top: -750px;
     margin-right: 400px;
     list-style-type: none;
-    background-color: rgb(0, 115, 182);
     font-size: 40px;
     text-decoration: none;
     font-weight: bold;
@@ -51,7 +71,6 @@
     margin-top: -750px;
     margin-right: 150px;
     list-style-type: none;
-    background-color: rgb(0, 115, 182);
     font-size: 40px;
     text-decoration: none;
     font-weight: bold;
