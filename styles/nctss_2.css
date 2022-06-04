@@ -15,22 +15,11 @@
     background-color: rgb(18, 216, 0);
    
 }
-.nav {
-    position: absolute;
-    top: 2%;
-    right: 10%;
-    font-size: 50px;
-    margin: 50px;
-}
 .notselected {
     text-decoration: none;
     color: white;
-    background-color: blue;
-    padding: 10px;
-    padding-left: 15px;
-    padding-right: 15px;
-    border: 1px solid black;
-}
+    background-color: rgb(0, 115, 182);
+    }
 a{
 text-decoration:none
 }
@@ -40,9 +29,9 @@ a:visited {
 .home{
     float: right;
     margin-top: -750px;
-    margin-right: 625px;
+    margin-right: 650px;
     list-style-type: none;
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     font-weight: bold;
     display: block;
@@ -55,9 +44,9 @@ a:visited {
 .about{
     float: right;
     margin-top: -750px;
-    margin-right: 400px;
+    margin-right: 450px;
     list-style-type: none;
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     font-weight: bold;
     display: block;
@@ -69,9 +58,23 @@ a:visited {
 .contact{
     float: right;
     margin-top: -750px;
-    margin-right: 150px;
+    margin-right: 215px;
     list-style-type: none;
-    font-size: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 15px 50px;
+    color: white;
+    border: 2px solid;
+    border-color: rgb(4 70 108);
+}
+.rules{
+    float: right;
+    margin-top: -750px;
+    margin-right: 10px;
+    list-style-type: none;
+    font-size: 30px;
     text-decoration: none;
     font-weight: bold;
     display: block;
@@ -117,3 +120,32 @@ a:visited {
     margin: auto; 
     font-size: x-large;
 }
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    list-style: none;
+    margin: 0;
+    width: fit-content;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: stretch;
+    align-items: baseline;
+    position: relative;
+    float: right;
+    margin-top: -730px;
+    padding: 0;
+    font-weight: bold;
+    column-gap: 50px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1em;
+    color: white;
+}
+  .navigation > li{
+      background-color: rgb(0, 115, 182);
+      border: 2px solid;
+  }
