@@ -91,6 +91,35 @@ a:visited {
     position: absolute;
     top: -10px;
 }
+.ruletitle{
+    text-align: center;
+    margin: 50px;
+    padding-top: 100px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.ruletext{
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.ruleslist{
+    font-weight: bold;
+}
+.alpha{
+    list-style-type: upper-alpha;
+}
+.lower{
+    list-style-type: lower-alpha;
+}
+.subtitle{
+    text-align: center;
+    font-weight: normal;
+    font-size: 35px;
+    font-style: italic;
+    padding-bottom: 45px;
+}
 .sub{
     text-align: center;
     height: auto;
