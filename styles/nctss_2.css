@@ -105,7 +105,7 @@ a:visited {
     margin-right: 200px;
 }
 .ruleslist{
-    font-weight: bold;
+    font-weight: b;
 }
 .alpha{
     list-style-type: upper-alpha;
@@ -176,4 +176,21 @@ a:visited {
     position: absolute;
     top: 80px;
     right: 95px;
+}
+table {
+    border-collapse: collapse;
+}
+th,
+td {
+  border: 1px solid #c6c7cc;
+  padding: 10px 15px;
+}
+th {
+    font-weight: bold;
+}
+ol > li::marker {
+    font-weight: bold;
+}
+.generaldiv {
+    margin-top: 200px;
 }
